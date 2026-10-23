@@ -11,13 +11,14 @@
 | `one-exit-targets.list` | 唯一的源名单，无策略列 |
 | `build_module.py` | 检查源名单并生成对应 Module；仅使用 Python 标准库 |
 | `one-exit-targets.sgmodule` | 可选的数据模块，只定义 `[Ruleset OneExitTargets]` |
-| `integrate.py` | 在本机备份、检查、集成和回滚配置；不上传配置 |
+| `integrate.py` | 首次内嵌集成，在本机备份、检查、应用和回滚；不上传配置 |
+| `switch_remote.py` | 将已有集成改为自有仓库远程名单；保留独立切换备份，可回退内嵌模式 |
 
 本机集成脚本要求 **Surge Mac 6.10+、Python 3.9+**。指定配置必须是 Surge 当前正在运行的同一份配置，且存在名为「♻️ 手动切换」的策略组；该组需已选择实际代理。脚本面向此配置结构，并非通用配置转换器。复杂逻辑或脚本规则会要求人工处理。
 
 名单型 Module 要求 **Surge Mac 6.10+ / iOS 5.23+**。它本身没有分流规则或 DNS 设置，需要主配置绑定策略；不能单独安装后就认为出口已统一。已使用内嵌名单时，不要同时启用同名 Module。
 
-## 当前内嵌方式
+## 首次集成的内嵌方式
 
 集成脚本在已有 `RULE-SET,LAN,DIRECT,no-resolve` 之后加入：
 
@@ -70,23 +71,40 @@ python3 build_module.py --check
 
 更新上游时先审查差异，再手动移植需要的条目。这里维护独立快照，不自动同步上游删除或清空，也不直接导入 Shadowrocket 原模块。
 
-### 2. 同步到当前内嵌配置
+### 2. 仍使用内嵌模式时的同步
 
 GitHub 文件更新不会自动修改已内嵌的主配置。先在本机备份当前配置，再只替换 `[Ruleset OneExitTargets]` 的内容，止于下一个 `[Ruleset OneExitKeepDirect]` 节头；保留节头、直连保护集、主逻辑规则以及 General/DNS。源名单中的注释可以保留。
 
 通过 Surge 配置校验并重新载入后，检查 Claude、Google 等目标的策略链，以及百度、淘宝、国内视频和游戏仍按预期分流。再做一次 BrowserLeaks DNS 测试。此类手动更新会令旧 `integrate.py rollback` 的整文件哈希保护生效；之后回退应使用此次更新前的本机备份。
 
-### 3. 可选：以后改用仓库远程名单
+### 3. 当前本机使用的远程方式
 
-如需 GitHub 改动随 Surge 外部资源更新生效，可以在备份后，将已有逻辑规则中的 **第一个** `RULE-SET,OneExitTargets,no-resolve` 换成下面的 Raw URL，保留直连保护条件和策略：
+当前本机已采用此方式：将已有逻辑规则中的 **第一个** `RULE-SET,OneExitTargets,no-resolve` 换为自有 Raw URL，并设为每小时检查更新，保留直连保护条件和策略：
 
 ```ini
-AND,((RULE-SET,https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/one-exit-surge/one-exit-targets.list,no-resolve),(NOT,((RULE-SET,OneExitKeepDirect,no-resolve)))),♻️ 手动切换
+AND,((RULE-SET,https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/one-exit-surge/one-exit-targets.list,no-resolve,update-interval=3600),(NOT,((RULE-SET,OneExitKeepDirect,no-resolve)))),♻️ 手动切换
 ```
 
 此示例要求配置中已经存在 `OneExitKeepDirect` 和「♻️ 手动切换」。原来的内嵌目标集可保留作参考；此逻辑规则此后读取远程名单。不要直接添加一条无直连保护的顶层规则来替代它。
 
-这属于另一种接入方式，本次上传仓库并未替本机切换。采用后需手动刷新 Surge 外部资源或等待其刷新周期，并重新检查分流。GitHub 提交不会立刻推送到设备；离线首次下载和服务可用性也会影响更新。需要固定版本时可将 URL 中的 `main` 换为审查过的提交 SHA。
+Surge 运行且联网时每小时检查更新。需要立即更新时，在 Surge 的外部资源列表中找到 `one-exit-targets.list` 并手动刷新。GitHub 提交不是即时推送，Raw 缓存和网络状况可能造成延迟。更新后重新检查目标和国内网站分流。
+
+日常只需维护本仓库的源名单；Module 仍是可选产物，当前配置没有启用它。远程连接异常与提交了有效的空名单是两种情况，不要把空文件当成停更方式。需要固定版本时可将 URL 中的 `main` 换为审查过的提交 SHA。
+
+对已经完成首次内嵌集成的另一份兼容配置，可在本目录执行以下命令切换；已切换的本机不用再次执行：
+
+```bash
+python3 switch_remote.py prepare --profile "$HOME/Library/Application Support/Surge/Profiles/TAG.conf"
+python3 switch_remote.py apply
+```
+
+切换备份仅保存在原本机目录的 `.private/remote/`，不会上传。回到切换前的内嵌模式：
+
+```bash
+python3 switch_remote.py rollback
+```
+
+若后来修改过主配置，脚本会拒绝整文件覆盖；应只将逻辑规则的目标引用恢复为 `RULE-SET,OneExitTargets,no-resolve`，保留 `OneExitKeepDirect` 和其它修改。需要撤销整个首次集成时，应先回滚远程切换，再使用原目录的 `integrate.py rollback`。
 
 ## Raw 链接
 

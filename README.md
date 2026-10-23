@@ -15,6 +15,6 @@
 - [One Exit 名单](https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/one-exit-surge/one-exit-targets.list)
 - [One Exit 可选 Module](https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/one-exit-surge/one-exit-targets.sgmodule)
 
-当前已安装的 One Exit 使用本地内嵌名单。仅修改 GitHub 不会改变这份生效配置；同步方法见 [维护说明](one-exit-surge/README.md#维护和更新)。本仓库不自动抓取上游，避免未经审查的变更影响分流。
+当前本机 One Exit 已改用本仓库的远程名单，设置为每小时检查更新（Surge 运行且联网时）。提交 `one-exit-surge/one-exit-targets.list` 后，可等待自动更新，或在 Surge 外部资源中手动刷新该名单。接入、验证和回滚见 [维护说明](one-exit-surge/README.md#维护和更新)。本仓库不自动抓取上游，避免未经审查的变更影响分流。
 
 完整配置、`.private/`、订阅链接和账号密码仅保留在本机。
