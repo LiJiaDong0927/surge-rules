@@ -1,0 +1,581 @@
+{
+  "created_at": "2026-10-24T06:41:14.073145+00:00",
+  "date": "2026-10-24",
+  "timezone": "Asia/Shanghai",
+  "purpose": "Preserve the exact 63 rule resources currently cached by Surge when migrating only their URLs",
+  "resource_count": 63,
+  "active_cache_overrides": [
+    "Game.list",
+    "Apple.list",
+    "ChinaIPsTest.list"
+  ],
+  "resources": [
+    {
+      "file": "OpenAi.list",
+      "original_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/refs/heads/main/OpenAi.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/OpenAi.list",
+      "sha256": "e99b9b56a055ca27eb7406f948ff591a77334aed62293e620d6bc18a1e447193",
+      "git_blob_sha": "ba814aef63ceaf3837a6a69ae8775393ad988361",
+      "size_bytes": 788,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Claude.list",
+      "original_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/refs/heads/main/Claude.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Claude.list",
+      "sha256": "7f882ce0319ba7a2dfbd08663b883f3c4ea9136e4105522b00da7b61fc73018d",
+      "git_blob_sha": "88248dc729676410139a0a938c73da6e2b7771ed",
+      "size_bytes": 1186,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "OneDrive.list",
+      "original_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/refs/heads/main/OneDrive.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/OneDrive.list",
+      "sha256": "0ae5e2cc728cfe8dac5210a8c43cf255bec68c4d1306edb69a4037da594f00cc",
+      "git_blob_sha": "705c654d000b9d87e620d2b6d308241472ef52ab",
+      "size_bytes": 625,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Speedtest.list",
+      "original_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/refs/heads/main/Speedtest.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Speedtest.list",
+      "sha256": "84bf73dfc16ef4dc4d03a0dca3993914f3c6d0c3fa2520e12ca82e848a0e6d2f",
+      "git_blob_sha": "9ee96b9bc06af28e51e9b97ef73e4bb484ba0381",
+      "size_bytes": 298,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Discord.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Discord/Discord.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Discord.list",
+      "sha256": "3d18c8fe716de06891ba3d6c34dba254cb65138a10f79e1a1a0628b5237ecb2c",
+      "git_blob_sha": "2dadab08cacb13029da275269ac13a2c423ca09a",
+      "size_bytes": 1076,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Mail.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Mail/Mail.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Mail.list",
+      "sha256": "1b04212722906e5f1019dc151e89c23a8bee433f35d488837ddca08906a69706",
+      "git_blob_sha": "c11833d4539bba68af4979f3f0e4405d6ea958d6",
+      "size_bytes": 498,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Mailru.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Mailru/Mailru.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Mailru.list",
+      "sha256": "31d09b5503e16139d3e36566fe128dda25dcc20bf5455ea13018b5807b24dbb9",
+      "git_blob_sha": "75a73008881a8ff8d58e1cc9923a4c7fb62f3023",
+      "size_bytes": 226,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Protonmail.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Protonmail/Protonmail.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Protonmail.list",
+      "sha256": "77b95cce917009ad887266d2d30226c8ce55282f90db1b2fc65ce20cc8a283d4",
+      "git_blob_sha": "814cbde05838726ca5ed643a8c1469b6ceaa5ceb",
+      "size_bytes": 291,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "AppleMail.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMail/AppleMail.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/AppleMail.list",
+      "sha256": "b14c45ddca00fe20b0fb8899cba87ca36a20774d2381e4ec8d7cfb64cd909a6e",
+      "git_blob_sha": "270c56d6a746cc61e4764cb8d09acb8689ca1d3b",
+      "size_bytes": 217,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "chat.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/xuanranran/Clash/main/Clash/chat.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/chat.list",
+      "sha256": "0d0245a37de92dd029b0c9f6cd098acf274f5d603f82cdb93a68efa550fdda87",
+      "git_blob_sha": "259d8bbd20391b1e46804efd2edc58d3d36a2b07",
+      "size_bytes": 4052,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "GameDownloadCN.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownloadCN/GameDownloadCN.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/GameDownloadCN.list",
+      "sha256": "f196c9b3c463248f474c7e77a205425ece4f5837e14a0f979b2c62cc7b9a0051",
+      "git_blob_sha": "4e1e5643629b9fee71b6d76a7b3bceba994dbe91",
+      "size_bytes": 736,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "GameDownload.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownload/GameDownload.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/GameDownload.list",
+      "sha256": "c7cbcca7d00ea7b663f0745d451358c000c2f6dc568b0189f8daf5b32e2136b6",
+      "git_blob_sha": "a4e5285f6d5fe8429b5e2a6a8c713b324a602e13",
+      "size_bytes": 1434,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Classic.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Classic/Classic.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Classic.list",
+      "sha256": "cec320579ec7427c0dbdbf9c367cb74c6df30ae6fe886ffcf538ba2475fddf95",
+      "git_blob_sha": "6ab7645889202d1604ddd879a5c42cd5deb7db8b",
+      "size_bytes": 247,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Nvidia.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Nvidia/Nvidia.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Nvidia.list",
+      "sha256": "c4a1a0ff25a613cc4602cca0e9256d6b453b311fb8c9c915412067ce4d6cb2bd",
+      "git_blob_sha": "305427cc26550c959a6385a64163a5b4d12871c5",
+      "size_bytes": 1830,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Game.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Game.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/active-cache/Game.list",
+      "sha256": "e99f3571e0e59461a125d2d0ca1abe53d1df4054e58704bc11272320ec6aa519",
+      "git_blob_sha": "1a1132426c606209ac7653210489e7f68ddd4fa6",
+      "size_bytes": 19223,
+      "uses_active_cache_copy": true
+    },
+    {
+      "file": "GameRule.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/xuanranran/Clash/main/Clash/GameRule.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/GameRule.list",
+      "sha256": "12cd6ff7ef61ea9f4a160e23cba1c13def4531f32d7ca7b886e188957e81cbe4",
+      "git_blob_sha": "e7a53135c41090870f36d2280884962b8cccb828",
+      "size_bytes": 438,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "KoreaMedia.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/xuanranran/Clash/main/Clash/KoreaMedia.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/KoreaMedia.list",
+      "sha256": "c5ed828be3a0ea420b4dd1a6fbd15bc4c02755a99412a26813635564653c939d",
+      "git_blob_sha": "a1d06efcac86ccc95d351d5270dd3c0f81fefbe4",
+      "size_bytes": 1071,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "AmazonPrimeVideo.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/AmazonPrimeVideo.list",
+      "sha256": "89d15b8beb98d3a33a75aff2849f879810e4c088c5bcd5e3f2bf36ccb6eec09d",
+      "git_blob_sha": "a5c22dc46fcb9f60042c3799a694533e83cbcee2",
+      "size_bytes": 1055,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "ViuTV.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ViuTV/ViuTV.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/ViuTV.list",
+      "sha256": "9b9cd7a68df2c00efdfe0c4417f908570a071d4c3820ddf00841fabdd21a8abc",
+      "git_blob_sha": "e5bdeb5835adddbe89e2ea7a3f67af050e6e8a96",
+      "size_bytes": 562,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "KKTV.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KKTV/KKTV.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/KKTV.list",
+      "sha256": "735b890700a16ac7a2c7719e297d25c6c5c2cf2f76454ffd408609dd7b42323e",
+      "git_blob_sha": "3ca33de8995211cdefd0595779cce0831c6e9773",
+      "size_bytes": 277,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "LineTV.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LineTV/LineTV.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/LineTV.list",
+      "sha256": "3ab489e191757791a9f51d288ab2bb12f64842b410192a94569d4fbb231c42aa",
+      "git_blob_sha": "b0987043c255a672cf1d14c06b64d6e78c23fb64",
+      "size_bytes": 481,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Bahamut.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bahamut/Bahamut.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Bahamut.list",
+      "sha256": "a8ef9cb8b22ca394e5a8f078dc970b2ddc7b75033529c53d3ea2b840866a545a",
+      "git_blob_sha": "bf830ae69e34220dfa569eaa1b9795b88436172d",
+      "size_bytes": 353,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "HamiVideo.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HamiVideo/HamiVideo.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/HamiVideo.list",
+      "sha256": "014e547336063d20ddda216cfd2ff4870b2fc263d4e7adae03cc72370ade1146",
+      "git_blob_sha": "8b7a647f1b4e2b7522621ca68b146106d6e7bf69",
+      "size_bytes": 326,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "JapanMedia.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/xuanranran/Clash/main/Clash/JapanMedia.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/JapanMedia.list",
+      "sha256": "4a6d39df2435390ba4e732ab978fbbcf94902b6628cdd069b311404a89e6029e",
+      "git_blob_sha": "d3a00032990b71162952a443abebd9c352c76c5d",
+      "size_bytes": 4945,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "YouTube.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/YouTube.list",
+      "sha256": "a8e4819c3ee2ba71c06873769310ec012a3aa2e8fc54843168ae6edef6e75280",
+      "git_blob_sha": "6a7628d2f75d78289c8b3b57c6b783356a0b1369",
+      "size_bytes": 5227,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "TIDAL.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TIDAL/TIDAL.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/TIDAL.list",
+      "sha256": "66470e9d49c7092980f89dcb36b1b53d8a5cda27981b4cdfaf1b8144ec9ac21a",
+      "git_blob_sha": "24c180eb94daba23e4cfb6537e2bab36a73fbc54",
+      "size_bytes": 275,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Disney.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Disney.list",
+      "sha256": "8ac935cbe8c975ce285879c098859b93badf309c0d321a55291f486c54820f9e",
+      "git_blob_sha": "b884a49728a765f70ba9909e54b02553eb5e5e4c",
+      "size_bytes": 5638,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "myTVSUPER.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/myTVSUPER/myTVSUPER.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/myTVSUPER.list",
+      "sha256": "fb8607eb918d81b13a079767bd4331a433151a5353e3dc3635ed3328d2c7444e",
+      "git_blob_sha": "9759376e6244e84bb5719e71cbda149b25580fa6",
+      "size_bytes": 364,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "HBOHK.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBOHK/HBOHK.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/HBOHK.list",
+      "sha256": "92bc5608039696d0eaf5be9e8f8621204ad10b944adb3a4c6a04002924498db6",
+      "git_blob_sha": "de48fba5e9d0ebabd54397d9bac963726c637839",
+      "size_bytes": 885,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "PCCW.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PCCW/PCCW.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/PCCW.list",
+      "sha256": "22a1812d065f7bafb9cd753411071385c01d7d2ac263b61833bd3afacfad078f",
+      "git_blob_sha": "67e40f76e7c689a04a4b19ad0e4661ad420b9940",
+      "size_bytes": 845,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "HBOAsia.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBOAsia/HBOAsia.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/HBOAsia.list",
+      "sha256": "e08596d641a2f61d3e23e4cb75af5d787d9627982d1d506714cd0eee460753cf",
+      "git_blob_sha": "260c244567fd6bedefae130424497c3e1f2f58a1",
+      "size_bytes": 833,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "HBO.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO/HBO.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/HBO.list",
+      "sha256": "74bf275159bfe78198aab5be922348893d8623f4d3531c039eefb898b0b9163a",
+      "git_blob_sha": "3fcd778e8b44cb5f47c8037bde7f83e50436e5c6",
+      "size_bytes": 1727,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Espn.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Espn/Espn.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Espn.list",
+      "sha256": "fc1151d4e1b3856ab9131ba351f186c45cdc1176e3d85225b406be3344c8d7f9",
+      "git_blob_sha": "273256ffd350bee7d625fcf878eb6b3a421cfae3",
+      "size_bytes": 459,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Fox.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Fox/Fox.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Fox.list",
+      "sha256": "9a9eab6fe27d4bff5d5237d90d983f0a6bb7d0946e3d21b67989555b0cd0e663",
+      "git_blob_sha": "e047f800ef4bcf1497492efb935f30c4fe32be71",
+      "size_bytes": 7852,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "ParamountPlus.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ParamountPlus/ParamountPlus.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/ParamountPlus.list",
+      "sha256": "b628757f722843ba68b937f589992a4a10cc7f6f2f0539561523b2f3424e53d6",
+      "git_blob_sha": "1310158824d20b5c93935525ff867e0dcf6d53a9",
+      "size_bytes": 451,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Peacock.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Peacock/Peacock.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Peacock.list",
+      "sha256": "645ed56a828c3c06cac7b194806bdf8c79399c258a94eef5443d63c92dfab065",
+      "git_blob_sha": "129885a8dcc5af6a493c7971736065ce56ba548f",
+      "size_bytes": 184,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "HuluUSA.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HuluUSA/HuluUSA.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/HuluUSA.list",
+      "sha256": "f22157d76443dc274dd220418f4d0de8a69ee582a92ab3176abdbeb77cf990f9",
+      "git_blob_sha": "4e4fc79a2097df9c1fd7c581b7469fe5e4dc92d9",
+      "size_bytes": 1678,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "DiscoveryPlus.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DiscoveryPlus/DiscoveryPlus.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/DiscoveryPlus.list",
+      "sha256": "7c55e7154cf2dec24e27d2401c4c79a290ba698750a02a7aafefe61d26c6aa63",
+      "git_blob_sha": "1e06530bd51cf8902f25239a699284f2cdc752d2",
+      "size_bytes": 700,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "MAX.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/xuanranran/Clash/main/Clash/MAX.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/MAX.list",
+      "sha256": "2d04f8b3e0aa60cfa9e9caf7bff8edb75315acc5780cc16b4094dcad7882a7ae",
+      "git_blob_sha": "414b69054b9451f10401cb976a4f63d65b195538",
+      "size_bytes": 53,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "EMBY.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/xuanranran/Clash/main/Clash/EMBY.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/EMBY.list",
+      "sha256": "ae8971fe3db56c519fb8b332e312fad33afcd650dd4529b4402bd314ba06d3ee",
+      "git_blob_sha": "45660d83955d951d162db6f9912ba56a2942d6bf",
+      "size_bytes": 4174,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "DAZN.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DAZN/DAZN.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/DAZN.list",
+      "sha256": "9ee99bf0aa11e76951bfa2165f5ccb6c392e806468984728f146c5c3357b2e04",
+      "git_blob_sha": "a0fa019c5e739f3ce37c37958fc5d69cf8b2d5cb",
+      "size_bytes": 792,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "AppleTV.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleTV/AppleTV.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/AppleTV.list",
+      "sha256": "92ca64869704522524fd023066ea8b11666817122e1b4f743aab3df5224dab2e",
+      "git_blob_sha": "4b5ae93a8c7086329190feb5d6b24182e45a856d",
+      "size_bytes": 412,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "BiliBiliIntl.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBiliIntl/BiliBiliIntl.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/BiliBiliIntl.list",
+      "sha256": "ccb061a3327eb9e49ff13a90a628577389c89d0c67e0a930be2e4f174434b0ad",
+      "git_blob_sha": "ff117d3008e90880597995ccc8b75354ca0932fe",
+      "size_bytes": 233,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "BiliBili.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/BiliBili.list",
+      "sha256": "78cedfd87e436fff5ba5c720ece34c235566667526ac03a31d945c5334c70d85",
+      "git_blob_sha": "b38d37a460a4913df7a62419fcad810d711b3164",
+      "size_bytes": 4647,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "iQIYI.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iQIYI/iQIYI.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/iQIYI.list",
+      "sha256": "ba162b3515c90696000f82457acd2bbf3446eeaa8fbc84680dbcd23f6f2a9290",
+      "git_blob_sha": "b5a8d0af12ae6d34539e1a0afa9a699c2a6f37b1",
+      "size_bytes": 1868,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Spotify.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Spotify.list",
+      "sha256": "0832138646a9425340a62743e0a1f847f681b571b1d28d07372a97dd6fd46efd",
+      "git_blob_sha": "2059bdae75a4f024e539f5633b569d62f98ba411",
+      "size_bytes": 1210,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Qobuz.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Qobuz/Qobuz.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Qobuz.list",
+      "sha256": "712a12944a96b4321cc11527e371483e461efb0cc9a3f4dfb1e2d13cf5c82ed0",
+      "git_blob_sha": "6c7961300871f9a0553ed920e0545492c97868a5",
+      "size_bytes": 973,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "AppleMusic.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMusic/AppleMusic.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/AppleMusic.list",
+      "sha256": "75415ad38f805f78d18030886a0ff485562fab9a0a6cc24d84a4e707e7bad837",
+      "git_blob_sha": "18e6534bcffadbcb55ac7226b5889ec44f9de7e2",
+      "size_bytes": 494,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "TikTok.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/TikTok.list",
+      "sha256": "ddf8e51eadb481849cd8146e7f1b55143c5bac1d3399f706445d5996c613085f",
+      "git_blob_sha": "2fca89cd32c95f71b598c1b5beb99aee3403e304",
+      "size_bytes": 1207,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Netflix.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Netflix.list",
+      "sha256": "9ceac35682ac97d17223d90e08c4e56b52c072b1698d746a2d22444110318b57",
+      "git_blob_sha": "48a11dc4e6de29059c65b105aa99a7bd5069ad0d",
+      "size_bytes": 40391,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "iCloud.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iCloud/iCloud.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/iCloud.list",
+      "sha256": "e34e2c63cb431ab0a1838d218aba4d8ddb102774f49727f3de44bc8261227475",
+      "git_blob_sha": "147d34bb3bd2f5b40900999d8670054e9ecdfb7e",
+      "size_bytes": 1877,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Bing.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bing/Bing.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Bing.list",
+      "sha256": "4b9fe5e5f0cef4c4b09a2e109ca4db00f1cc67ec45aae5c50fca3bdb72b61968",
+      "git_blob_sha": "73d9f040b1f517389d0a8cea1043b1034ad6c408",
+      "size_bytes": 415,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Microsoft.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Microsoft.list",
+      "sha256": "241e998fe692f1ad0cec29b66b95769bee656f4beb3b5ccd47f15b8e8935d5dc",
+      "git_blob_sha": "f722abece2e8e8277b52e9279b99c496bc98f581",
+      "size_bytes": 20519,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Apple.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/active-cache/Apple.list",
+      "sha256": "a2ab33e774c8b936348823d6288b2b8f966ba9aac070e10bb208c7a803f509a1",
+      "git_blob_sha": "eb933516e32fadf37b22fc14dd789f007f6f12e5",
+      "size_bytes": 50838,
+      "uses_active_cache_copy": true
+    },
+    {
+      "file": "GlobalMedia.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/GlobalMedia.list",
+      "sha256": "92faaf6277d5c868f5ee6fa49e65bf9c8a888f31c5333b499aae21cc2fe34cef",
+      "git_blob_sha": "b2b890c6c4f1fff8f3794ea2eb8507428461dd32",
+      "size_bytes": 71684,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Google.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Google.list",
+      "sha256": "d563f32cb2c294860f4a70ccb63c9a49c3bf0fa27ff9e094f1368f2faf91595e",
+      "git_blob_sha": "4138e8f5cd538c147ca37d1d0939b31e6265d2d1",
+      "size_bytes": 19896,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "yahoo.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/xuanranran/Clash/main/rule/yahoo.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/yahoo.list",
+      "sha256": "9b41da594c89aae5564f989b0517df584d234977d0c854f229a6306de39e6241",
+      "git_blob_sha": "6e9ec4593edbb168f87596568bb535a446a3861e",
+      "size_bytes": 4236,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "ProxyGFWlist.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/ProxyGFWlist.list",
+      "sha256": "72d5f97cb3adedd7ef632962effda4aa3b9953da20427cd6050d55d1184de5ea",
+      "git_blob_sha": "0662bdd4dad51b1760a31aa06e6a14f5c1ebd2e0",
+      "size_bytes": 191112,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "ChinaMedia.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia/ChinaMedia.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/ChinaMedia.list",
+      "sha256": "6eb14d13ebe0f4cd2be03cee4f4a8b245199a82225b515c01aab5b7d0e1353b9",
+      "git_blob_sha": "e379f9f9c8206034170714d5eadba0d7160be7c2",
+      "size_bytes": 13441,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "GoogleCN.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/GoogleCN.list",
+      "sha256": "00ffcc16d0eb1898cba4f9c2cc2ce76a8f70bef7a03aea436dad79982b77c8ca",
+      "git_blob_sha": "8356384e4e893f961493c6364a7b1ec3e0f779b8",
+      "size_bytes": 1016,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "ChinaIPsTest.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPs/ChinaIPsTest/ChinaIPsTest.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/active-cache/ChinaIPsTest.list",
+      "sha256": "c8ff4d4f02eb4218bf114fc4d31249df680374fae5f50760077bc45f6380e3ae",
+      "git_blob_sha": "0639b32f4b04013b32e202ade55e592df00498b4",
+      "size_bytes": 826365,
+      "uses_active_cache_copy": true
+    },
+    {
+      "file": "Lan.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Lan.list",
+      "sha256": "65decf7849f37cbc66cff8e1155ea1d6344c748c6ead772db2f9e9c7e6a1d546",
+      "git_blob_sha": "16ef87df343b9ed976cfaf2d5695c1192b71ba0a",
+      "size_bytes": 4861,
+      "uses_active_cache_copy": false
+    },
+    {
+      "file": "Download.list",
+      "original_url": "https://ghfast.top/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list",
+      "replacement_url": "https://raw.githubusercontent.com/LiJiaDong0927/surge-rules/main/rules-backup-2026-10-24/Download.list",
+      "sha256": "62b72d16b8f2bcbc80eb2c7af35dc03b31c4d82e732af6d227c2a311f04bdadc",
+      "git_blob_sha": "ba9af58afac21e81c1dceb0992b3f7153eccc769",
+      "size_bytes": 928,
+      "uses_active_cache_copy": false
+    }
+  ]
+}
