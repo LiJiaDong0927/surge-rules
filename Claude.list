@@ -1,0 +1,36 @@
+# Adapted from https://github.com/wquguru/one-exit/blob/main/shadowrocket/one-exit.module
+# Snapshot: 2026-10-23. Local snapshot; no automatic upstream updates.
+# Route policy is assigned by the main Surge profile. No DNS settings or IPv6 blocking.
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,claudemcpcontent.com
+DOMAIN-SUFFIX,modelcontextprotocol.io
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
+IP-CIDR,160.79.104.0/21,no-resolve
+IP-ASN,399358,no-resolve
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-KEYWORD,browser-intake
+DOMAIN-SUFFIX,datadoghq.com
+DOMAIN-SUFFIX,growthbook.io
+DOMAIN-SUFFIX,usefathom.com
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,stripecdn.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,siftscience.com
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-SUFFIX,withpersona.com
+DOMAIN-SUFFIX,webshare.io
