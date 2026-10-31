@@ -1,0 +1,17 @@
+# NAME: AppleNews
+# Policy is assigned by the main Surge profile. PROCESS-NAME is Mac only.
+# Sources: https://github.com/NSRingo/News and https://nsringo.github.io/guide/apple-news
+# gspe1-ssl.ls.apple.com and gateway.icloud.com are shared Apple service endpoints.
+
+PROCESS-NAME,News
+DOMAIN-SUFFIX,apple.news
+DOMAIN,news-client.apple.com
+DOMAIN,news-client-search.apple.com
+DOMAIN,news-edge.apple.com
+DOMAIN,news-todayconfig-edge.apple.com
+DOMAIN,news-events.apple.com
+DOMAIN,news-sports-events.apple.com
+DOMAIN,news-assets.apple.com
+DOMAIN,apple.comscoreresearch.com
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,gateway.icloud.com
