@@ -3696,6 +3696,9 @@ DOMAIN-SUFFIX,zuoyebang.com
 DOMAIN-SUFFIX,zybang.com
 DOMAIN-SUFFIX,zyh365.com
 DOMAIN-SUFFIX,zzdtec.com
+DOMAIN-SUFFIX,agent.dev.hibuild.dev
+DOMAIN-SUFFIX,app.dev.hibuild.dev
+DOMAIN-KEYWORD,.hibuild
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
 DOMAIN-KEYWORD,alipay
