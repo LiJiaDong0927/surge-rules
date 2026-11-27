@@ -10,6 +10,10 @@ DOMAIN-SUFFIX,claudemcpcontent.com
 DOMAIN-SUFFIX,modelcontextprotocol.io
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-KEYWORD,datadog
+DOMAIN-KEYWORD,sift
+IP-CIDR6,2607:6bc0::/32,no-resolve
 IP-CIDR,160.79.104.0/21,no-resolve
 IP-ASN,399358,no-resolve
 DOMAIN-SUFFIX,sentry.io
